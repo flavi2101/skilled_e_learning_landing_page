@@ -1,0 +1,47 @@
+.buttonHead {
+    block-size: 48px;
+    inline-size: 140px;
+    border-radius: 28px;
+    background-color: hsl(233, 54%, 16%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    line-height: 28px;
+    border: none;
+    opacity: 1;
+    z-index: 2;
+}
+
+.buttonHead:hover {
+    background-color: #666ca3;
+}
+
+.buttonContent {
+    block-size: 56px;
+    inline-size: 167px;
+    border-radius: 28px;
+    background: linear-gradient(#ff6f48, #f02aa6);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    line-height: 28px;
+    border: none;
+}
+
+.buttonContent:hover {
+    opacity: 0.7;
+    color: black;
+}
+
+.buttonFotter {
+    block-size: 56px;
+    inline-size: 167px;
+    border-radius: 28px;
+    background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    line-height: 28px;
+    border: none;
+}
+
+.buttonFotter:hover {
+    opacity: 0.7;
+}

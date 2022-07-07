@@ -1,0 +1,61 @@
+@media screen and (max-width: 376px) {
+    .header {
+        inline-size: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-inline: 16px;
+        padding-block-start: 16px;
+    }
+
+    .logo {
+        color: hsl(233, 54%, 16%);
+        font-size: 28px;
+        display: inline-block;
+        font-weight: 800;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 769px){
+    .header {
+        inline-size: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-inline: 39px 40px;
+        padding-block-start: 24px;
+    }
+
+    .logo {
+        color: hsl(233, 54%, 16%);
+        font-size: 28px;
+        display: inline-block;
+        font-weight: 800;
+        text-decoration: none;
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+    .header {
+        inline-size: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-inline: 165px;
+        padding-block-start: 38px;
+    }
+
+    .logo {
+        color: hsl(233, 54%, 16%);
+        font-size: 36px;
+        display: inline-block;
+        font-weight: 800;
+        text-decoration: none;
+    }
+
+    .button:hover{
+        background-color: #666CA3;
+    }
+}

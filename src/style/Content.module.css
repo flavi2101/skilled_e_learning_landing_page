@@ -1,0 +1,109 @@
+@media screen and (max-width: 376px) {
+    .container {
+        block-size: 50%;
+        margin-block-start: 40px;
+        padding-inline: 16px;
+    }
+
+    .title {
+        font-size: 2.5rem;
+        line-height: 50px;
+        font-weight: 800;
+    }
+
+    .subtitle {
+        padding-block-start: 16px;
+        color: hsl(232, 16%, 51%);
+        font-size: 1rem;
+        font-weight: 500;
+        inline-size: 100%;
+        line-height: 162%;
+        padding-block-end: 24px;
+    }
+
+    .hero {
+        inline-size: 100%;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 769px) {
+    .container {
+        block-size: 50%;
+        inline-size: 60%;
+        margin-block-start: 40px;
+        padding-inline-start: 39px;
+    }
+
+    .title {
+        font-size: 2.5rem;
+        line-height: 50px;
+        font-weight: 800;
+    }
+
+    .subtitle {
+        padding-block-start: 16px;
+        color: hsl(232, 16%, 51%);
+        font-size: 1rem;
+        font-weight: 500;
+        inline-size: 100%;
+        line-height: 162%;
+        padding-block-end: 24px;
+    }
+
+    .herocontainer {
+        position: absolute;
+        inline-size: 40%;
+        block-size: 100%;
+        inset-block-start: 10%;
+        inset-inline-end: 0%;
+        overflow-x: hidden;
+    }
+
+    .hero {
+        position: absolute;
+        inline-size: 190%;
+        inset-block-start: -22%;
+        inset-inline-start: -10%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .container {
+        block-size: 50%;
+        inline-size: 45%;
+        margin-block-start: 178px;
+        padding-inline-start: 165px;
+    }
+
+    .title {
+        font-size: 3.125rem;
+        line-height: 50px;
+        font-weight: 800;
+    }
+
+    .subtitle {
+        padding-block-start: 29px;
+        color: hsl(232, 16%, 51%);
+        font-size: 1.125rem;
+        font-weight: 500;
+        inline-size: 100%;
+        line-height: 162%;
+        padding-block-end: 40px;
+    }
+
+    .herocontainer {
+        position: absolute;
+        inline-size: 50%;
+        block-size: 105%;
+        inset-block-start: 0%;
+        inset-inline-end: 0%;
+        overflow: hidden;
+    }
+
+    .hero {
+        position: absolute;
+        inline-size: 140%;
+        inset-block-start: -22%;
+        inset-inline-start: 4%;
+    }
+}

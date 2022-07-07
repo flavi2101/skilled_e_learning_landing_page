@@ -1,0 +1,84 @@
+@media screen and (max-width: 376px) {
+    .container {
+        background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+        padding-inline: 16px;
+        padding-block-end: 80px;
+        
+        
+    }
+
+    .title {
+        background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+        border-radius: 10px;
+        padding: 24px 29px 32px 28px;
+        block-size: 120px;
+        inline-size: 100%;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 32px;
+        color: #ffffff;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 769px) {
+    .container {
+        background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+        padding-inline: 39px;
+        padding-block-start: 186px;
+        padding-block-end: 46px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:  283px 283px 283px;
+        column-gap: 10px;
+        row-gap: 32px;
+        align-items: end;
+    }
+
+    .title {
+        display: inline-block;
+        background: linear-gradient(0deg, hsl(322, 87%, 55%) 0%, hsl(13, 100%, 64%) 100%);
+        border-radius: 15px;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 40px;
+        color: hsl(0, 0%, 100%);
+        text-align: left;
+        padding-inline: 32px;
+        padding-block-start: 64px;
+        block-size: 259px;
+       
+        
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .container {
+        background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+        padding-inline: 165px;
+        padding-block-start: 326px;
+        padding-block-end: 46px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:  322px 322px ;
+        column-gap: 30px;
+        row-gap: 56px;
+        align-items: end;
+    }
+
+    .title {
+        display: inline-block;
+        background: linear-gradient(0deg, hsl(322, 87%, 55%) 0%, hsl(13, 100%, 64%) 100%);
+        border-radius: 15px;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 40px;
+        color: hsl(0, 0%, 100%);
+        text-align: left;
+        padding-inline: 32px;
+        padding-block-start: 64px;
+        block-size: 100%;
+       
+        
+    }
+}
